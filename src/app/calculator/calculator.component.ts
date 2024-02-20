@@ -52,5 +52,10 @@ export class CalculatorComponent {
     this.value1 = result.toString();
   }
 
+  reset(){
+    this.value1 = ''
+    this.firstValue = 0
+  }
+
   Closed(){}
 }
